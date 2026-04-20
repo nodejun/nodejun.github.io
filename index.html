@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nodejun — Projects</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, 'Segoe UI', 'Pretendard', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #2e2e2e;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+      padding: 48px 40px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: #1a1a1a;
+    }
+    .subtitle {
+      color: #666;
+      margin-bottom: 32px;
+      font-size: 15px;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 24px 0 12px;
+      color: #333;
+    }
+    .project-card {
+      display: block;
+      padding: 16px 20px;
+      background: #fafafa;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      margin-bottom: 12px;
+      border: 1px solid #eee;
+      transition: all 0.2s;
+    }
+    .project-card:hover {
+      background: #f0f4ff;
+      border-color: #4285f4;
+      transform: translateY(-1px);
+    }
+    .project-name {
+      font-weight: 600;
+      color: #4285f4;
+      margin-bottom: 4px;
+    }
+    .project-desc {
+      font-size: 14px;
+      color: #666;
+    }
+    .links {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #eee;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .links a {
+      color: #4285f4;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>nodejun</h1>
+    <p class="subtitle">Chrome Extension &amp; Web Developer</p>
+
+    <h2>Projects</h2>
+    <a class="project-card" href="https://github.com/nodejun/schedule-popup">
+      <div class="project-name">ShortScheduler</div>
+      <div class="project-desc">YouTube Shorts를 스케줄러로 교체하는 Chrome 확장프로그램</div>
+    </a>
+
+    <div class="links">
+      <a href="https://github.com/nodejun">GitHub</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+  </div>
+</body>
+</html>
